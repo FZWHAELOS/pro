@@ -77,7 +77,7 @@
               "name": "paperclip",
               "family": "MobiriseIcons",
               "link": "https://mobirise.com",
-              "size": 0,
+              "size": "50",
               "active": true
             }
           },
