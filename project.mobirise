@@ -6,7 +6,10 @@
       "name": "default",
       "title": "Mobirise",
       "styling": {},
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#747474",
+        "#222222"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.5",
@@ -96,15 +99,31 @@
             "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/dscf1175-2000x1500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/5e8c6cb33aea4ae28585f2e07caf30b5.jpeg",
                 "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "范智伟",
+                "contentAlign": "left",
+                "text": "浙江大学物理系复杂性科学方向在读博士，现居杭州。研究兴趣：金融复杂系统，量化策略开发。",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">更多</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.2"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dscf1175-2000x1500.jpg",
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "赛车运动",
                 "contentAlign": "right",
                 "text": "赛车一直是我喜欢的一项运动，引擎的轰鸣是激情的释放。",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More picture</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More picture</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "overlayColor": "#222222"
               }
             ]
           },
@@ -117,7 +136,11 @@
           "_styles": {
             "P": {
               "text-align": "right",
-              "font-size": "22px"
+              "font-size": "22px",
+              "color": "#efefef"
+            },
+            "H1": {
+              "color": "#ffffff"
             }
           }
         }
